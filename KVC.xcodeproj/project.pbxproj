@@ -13,6 +13,7 @@
 		C5C1C7ED1C7B54A400D360F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C1C7EB1C7B54A400D360F8 /* Main.storyboard */; };
 		C5C1C7EF1C7B54A400D360F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C1C7EE1C7B54A400D360F8 /* Assets.xcassets */; };
 		C5C1C7F21C7B54A400D360F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C1C7F01C7B54A400D360F8 /* LaunchScreen.storyboard */; };
+		C5C1C7FB1C7B54FB00D360F8 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C1C7FA1C7B54FB00D360F8 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		C5C1C7EE1C7B54A400D360F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C1C7F11C7B54A400D360F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5C1C7F31C7B54A400D360F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5C1C7F91C7B54FB00D360F8 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		C5C1C7FA1C7B54FB00D360F8 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				C5C1C7F01C7B54A400D360F8 /* LaunchScreen.storyboard */,
 				C5C1C7F31C7B54A400D360F8 /* Info.plist */,
 				C5C1C7E21C7B54A400D360F8 /* Supporting Files */,
+				C5C1C7F91C7B54FB00D360F8 /* Student.h */,
+				C5C1C7FA1C7B54FB00D360F8 /* Student.m */,
 			);
 			path = KVC;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				C5C1C7EA1C7B54A400D360F8 /* ViewController.m in Sources */,
 				C5C1C7E71C7B54A400D360F8 /* AppDelegate.m in Sources */,
 				C5C1C7E41C7B54A400D360F8 /* main.m in Sources */,
+				C5C1C7FB1C7B54FB00D360F8 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
